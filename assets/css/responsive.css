@@ -1,0 +1,117 @@
+/* PC */
+
+@media (min-width: 64em) {}
+
+
+/* Tablet & Mobile*/
+
+@media (max-width: 63.9375em) {
+    #content .btn {
+        padding: 15px 16px;
+    }
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+    #content .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    #content .contact-info {
+        line-height: 2;
+    }
+    #content .contact-submit-btn {
+        font-size: 18px;
+    }
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #nav {
+        width: 90%;
+    }
+    #header .search-btn {
+        width: 10%;
+        text-align: center;
+    }
+    #footer .social-list {
+        font-size: 48px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        width: 100%;
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        list-style: none;
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav li:hover a {
+        color: black;
+    }
+    #nav .subnav a {
+        color: white;
+        padding: 5px 41px;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+        width: 15%;
+        text-align: center;
+        max-height: 46.4px;
+    }
+    #slider .text-slider {
+        bottom: 14px;
+    }
+    #slider .text-heading {
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+    #slider .text-description {
+        font-size: 11px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    #content .contact-form {
+        margin-top: 32px;
+    }
+}
